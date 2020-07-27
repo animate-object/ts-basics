@@ -156,8 +156,7 @@ favoriteMovies.forEach((movie) => console.log(`Movie: ${movie}`));
 // Tuples::
 export type Point = [number, number];
 const myFirstPoint: Point = [124, 853];
-// ⛔ 
-const anotherPoint: Point = ["a", undefined];
+// ⛔ const anotherPoint: Point = ["a", undefined];
 
 
 
